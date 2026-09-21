@@ -50,9 +50,15 @@ Kotlin 1.9.22, Android SDK 34 (минимум 26), Jetpack (ViewModel, LiveData)
 Основная сущность — TravelEntry:
 
 Поле	Тип	Описание
+
 id	Long	Уникальный идентификатор записи
+
 latitude, longitude	Double	Координаты центра остановки
+
 address	String	Адрес места, полученный геокодированием
+
 startTime, endTime	Long	Временные метки начала и окончания остановки
+
 photoPath	String	Путь к выбранной фотографии
+
 caption	String	Текстовое описание остановки
